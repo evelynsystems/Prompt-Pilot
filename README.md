@@ -1,4 +1,3 @@
-# PromptPilot
 
 ### Professional Offline AI Prompt Workspace for ComfyUI
 
@@ -208,6 +207,33 @@ Launch PromptPilot from your desktop or applications menu.
 
 ---
 
+## Previews
+<p></p>
+<p></p>
+<img width="2778" height="1761" alt="Screenshot_20260716_200442" src="https://github.com/user-attachments/assets/1a22017b-3327-4d82-bc87-b0ee0951d2b2" />
+<p></p>
+<p></p>
+<img width="2778" height="1761" alt="Screenshot_20260716_200503" src="https://github.com/user-attachments/assets/13bd0b68-957e-4737-a81e-9ac0f62f40fb" />
+<p></p>
+<p></p>
+<img width="2789" height="1766" alt="Screenshot_20260716_200516" src="https://github.com/user-attachments/assets/9d3a1bc0-85fd-4705-b47e-400fbdaedac8" />
+<p></p>
+<p></p>
+<img width="2784" height="1761" alt="Screenshot_20260716_200533" src="https://github.com/user-attachments/assets/382af33b-2d71-430b-bdd4-3749ed1a425c" />
+<p></p>
+<p></p>
+<img width="2782" height="1759" alt="Screenshot_20260716_200548" src="https://github.com/user-attachments/assets/6fe923c8-d80a-4fee-99a0-d3f986cb2d00" />
+<p></p>
+<p></p>
+<img width="2780" height="1759" alt="Screenshot_20260716_200600" src="https://github.com/user-attachments/assets/a3a5b00c-07c0-4fa4-a36c-b2b2af8c2500" />
+<p></p>
+<p></p>
+<img width="2790" height="1759" alt="Screenshot_20260716_200617" src="https://github.com/user-attachments/assets/f1239c9e-9b40-428d-a06a-8e1488ca3ea4" />
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
 # Roadmap
 
 Future versions are planned to include:
@@ -222,6 +248,7 @@ Future versions are planned to include:
 * Advanced Prompt Analytics
 
 ---
+
 
 # License
 
