@@ -320,10 +320,7 @@ If you would like PromptPilot in another language, open an Issue or Discussion a
 
 ---
 
-# 📸 Screenshots
-
-Add current PromptPilot screenshots here.
-
+#
 ---
 
 # 🗺️ Roadmap
