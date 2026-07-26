@@ -1,275 +1,400 @@
-🚀 PromptPilot
-Professional Offline AI Prompt Workspace for ComfyUI
 
-PromptPilot is a modern desktop application designed to help creators build high-quality prompts for image and video generation completely offline.
+<img width="1280" height="640" alt="Futuristic AI software launch poster" src="https://github.com/user-attachments/assets/d0675cde-c3c2-415f-80fa-05602ad3288f" />
+<p></p>
+<p></p>
 
-Built specifically for ComfyUI users, PromptPilot works with Ollama to generate detailed prompts while keeping your ideas, prompts, and models on your own computer.
+<div align="center">
 
+# ✈️ PromptPilot v2.0
 
+### Professional Offline AI Prompt Workspace for ComfyUI
 
+**Build better AI image and video prompts while keeping everything on your own computer.**
 
+**Windows • Linux • Mac (Beta) • Server/Docker (Beta) • Ollama •  ComfyUI**
 
+### Your idea. Your workflow. Your creation.
 
+</div>
 
+---
 
+## 🚀 About PromptPilot
 
+PromptPilot is a desktop application designed to help creators build high quality prompts for AI image and video generation.
 
-🆕 What's New in v1.14.5 / v1.14.6
-🌎 Dedicated Language Editions
+Built with ComfyUI creators in mind, PromptPilot uses locally installed Ollama models to create detailed, model aware prompts.
 
-PromptPilot is now available as dedicated language editions.
+Your ideas and prompts remain on your own computer.
 
-🇺🇸 English Edition (v1.14.5)
-🇫🇷 French Edition (v1.14.6)
+> 🔒 No cloud processing required  
+> 💳 No subscriptions  
+> 🔑 No API keys  
+> 📡 No telemetry  
+> 👁️ No tracking  
+> 🖥️ Local AI powered by Ollama
 
-By releasing separate editions instead of using an in-app language switch, PromptPilot is now:
+---
 
-Faster
-More stable
-Easier to maintain
-Easier to expand with additional language editions
+# 🆕 PromptPilot Version 2
 
-If you'd like PromptPilot in another language, let us know! Future language editions will be created based on community requests.
+Version 2 is a major update featuring expanded AI support, smarter prompt generation, improved Ollama management, Image Inspector, automatic LoRA trigger words, and a more polished workspace.
 
-🧠 Embedded AI Engine
+## 🧠 Model Aware Prompt Generation
 
-The integrated AI Engine provides live feedback while your prompts are generated.
+PromptPilot does more than expand a description.
+
+It understands which AI platform or model you are targeting and adjusts the prompt accordingly.
+
+This allows PromptPilot to write prompts specifically for image generators, video generators, ComfyUI models, and general AI systems.
+
+---
+
+## 🤖 Universal AI Registry
+
+PromptPilot includes support for more than **100 AI platforms and model families**.
+
+| Image | Video | General AI |
+|:---|:---|:---|
+| FLUX | WAN 2.2 | ChatGPT |
+| Z Image | Seedance | Grok |
+| SDXL | Sora | Universal Mode |
+| PuLID | Veo | Custom AI Target |
+| Stable Diffusion | LTX | |
+| Qwen Image | FramePack | |
+| | Hunyuan Video | |
+| | CogVideoX | |
+| | Mochi | |
+| | AnimateDiff | |
+
+And many more.
+
+You can select a supported AI or type the name of the system you want PromptPilot to write for.
+
+---
+
+# ✨ Features
+
+## 🎨 AI Prompt Builder
+
+Create detailed prompts using locally installed Ollama models.
+
+Prompt Builder includes:
+
+* Model specific prompt generation
+* Simple and detailed modes
+* Prompt detail controls
+* Realism controls
+* Person improvement controls
+* Camera controls
+* Custom text insertion
+* Negative prompts
+* LoRA integration
+* Face reference options
+* Identity preservation
+* Prompt improvement
+* Multiple prompt comparisons
+* Prompt history
+
+---
+
+## 🧠 Embedded AI Engine
+
+See what PromptPilot is doing while your prompt is being created.
+
+The AI Engine provides:
+
+* Live progress
+* Generation percentage
+* Current processing stage
+* Elapsed time
+* PromptPilot tips
+* Completion summary
+
+Everything is integrated directly into Prompt Builder.
+
+---
+
+## 🖼️ Image Inspector
+
+Turn an existing image into a detailed AI prompt.
+
+Image Inspector includes:
+
+* AI powered image analysis
+* Detailed prompt reconstruction
+* Direct transfer to Prompt Builder
+* One click prompt copying
+* Ollama vision model support
+
+Use Image Inspector when you want PromptPilot to analyze how an existing image could be recreated.
+
+---
+
+## 🔥 LoRA Manager
+
+PromptPilot makes working with ComfyUI LoRAs easier.
 
 Features include:
 
-Live progress bar
-Real-time workflow updates
-Prompt generation stages
-Elapsed timer
-Helpful PromptPilot tips
-Prompt completion summary
+* Scan LoRA folders
+* Search installed LoRAs
+* Detect trigger words
+* Automatically insert trigger words
+* Prevent duplicate keywords
+* Copy trigger words
+* Enable or disable LoRA assistance
 
-No popup windows—everything is integrated directly into the Prompt Builder.
+---
 
-📥 Improved Local Model Manager
+## 👤 Identity Preservation
 
-Manage Ollama models directly inside PromptPilot.
+PromptPilot includes controls for reference based workflows such as PuLID.
 
-Features include:
+Available preservation options include:
 
-Live download progress
-Download percentage
-Installation status
-Automatic model refresh
-One-click installation
-🖼 Image Inspector
+* Face lock
+* Identity strength
+* Eyes
+* Nose
+* Lips
+* Jawline
+* Skin tone
+* Hair
+* Expression
 
-Analyze existing images and generate detailed prompt descriptions.
+---
 
-AI-powered prompt reconstruction
-Send results directly to Prompt Builder
-Copy generated prompts
-Works with compatible Ollama vision models
-🔥 Automatic LoRA Trigger Words
+## 📥 Local Model Manager
 
-PromptPilot automatically:
+Manage Ollama without leaving PromptPilot.
 
-Detects trigger words
-Inserts trigger words into prompts
-Prevents duplicate keywords
-Keeps prompts organized
-🤖 Universal AI Registry
+| Control | Supported |
+|:---|:---:|
+| Start Ollama | ✅ |
+| Stop Ollama | ✅ |
+| Restart Ollama | ✅ |
+| Refresh models | ✅ |
+| Install models | ✅ |
+| Live download progress | ✅ |
+| Download percentage | ✅ |
+| Installation status | ✅ |
+| Automatic model refresh | ✅ |
 
-Supports over 100 AI platforms, including:
+---
 
-FLUX
-WAN 2.2
-SDXL
-Z Image
-ChatGPT
-Seedance
-Sora
-Veo
-LTX
-ComfyUI Workflows
+## 📁 ComfyUI Workspace
 
-and many more.
+PromptPilot brings several ComfyUI related tools into one workspace.
 
-Why PromptPilot?
+* Prompt Builder
+* Project Manager
+* Workflow Manager
+* LoRA Manager
+* Image Inspector
+* Prompt History
+* Prompt Templates
+* Prompt Detail Controls
+* AI Target Selection
+* Model Selection
 
-PromptPilot was built around one simple philosophy:
+---
 
-Everything stays on your own computer.
+# 🔒 Privacy First
 
-✔ No cloud processing
+### Your prompts belong to you.
 
-✔ No subscriptions
+PromptPilot is designed around local AI.
 
-✔ No API keys
+Your prompt generation can remain entirely on your own computer through Ollama.
 
-✔ No prompt collection
+| | PromptPilot |
+|:---|:---|
+| Cloud processing required | ❌ |
+| Subscription required | ❌ |
+| API key required | ❌ |
+| Prompt collection | ❌ |
+| Telemetry | ❌ |
+| Tracking | ❌ |
+| Local Ollama support | ✅ |
+| Offline prompt generation | ✅ |
 
-✔ No tracking
+---
 
-✔ Your prompts stay private.
+# 🤖 Ollama Models
 
-Features
-🧠 AI Prompt Builder
+PromptPilot works with a wide range of locally installed Ollama models.
 
-Supports prompt generation for:
+Recommended options include:
 
-FLUX
-Z Image
-SDXL
-WAN 2.2
-FramePack
-Hunyuan Video
-CogVideoX
-Mochi
-Stable Video Diffusion
-AnimateDiff
-Universal Prompt Mode
-🤖 Offline AI
+* Gemma 3
+* Llama 3
+* Qwen
+* Dolphin 3
+* Dark Champion
+* LLaVA
+* MiniCPM Vision
 
-Powered entirely by Ollama.
+> Different models may perform better for different PromptPilot features. Vision models are required for features such as Image Inspector.
 
-Compatible with virtually any installed Ollama model.
+---
 
-Recommended models include:
+# 📥 Downloads
 
-Gemma 3
-Llama 3
-Dolphin 3
-Qwen
-Dark Champion
-Llava
-MiniCPM Vision
-⚙ Local Model Manager
+## 🪟 Windows
 
-Control Ollama directly from PromptPilot.
+**PromptPilot v2.0 for Windows**
 
-Start
-Stop
-Restart
-Refresh installed models
-Install new models
-Live installation progress
-📁 ComfyUI Workspace
+Recommended for Windows 10 and newer.
 
-Includes:
+## 🐧 Linux
 
-Prompt Builder
-Project Manager
-Workflow Manager
-LoRA Manager
-Image Inspector
-Prompt History
-Prompt Templates
-Prompt Detail Controls
-Realism Slider
-Prompt Preservation Controls
-🎨 LoRA Manager
-Scan LoRA folders
-Search LoRAs
-Detect trigger words
-Automatic keyword insertion
-Duplicate prevention
-🔒 Privacy First
+**PromptPilot v2.0 for Linux**
 
-PromptPilot is designed for creators who value privacy.
+Designed for modern Linux desktop systems.
 
-No telemetry
-No cloud processing
-No prompt collection
-No tracking
+> Additional platform editions may be released in the future.
 
-Everything remains on your own PC.
+---
 
-🖥 Modern Desktop Interface
-Modern dark theme
-Fast startup
-Responsive interface
-Windows & Linux support
-Embedded AI Engine
-Live status updates
-Requirements
-Windows 10 or newer
-Linux
-Ollama
-ComfyUI (recommended)
-Installation
-Windows
+# ⚙️ Requirements
 
-Download the latest English or French edition.
+| Requirement | Windows | Linux |
+|:---|:---:|:---:|
+| PromptPilot | ✅ | ✅ |
+| Ollama | ✅ | ✅ |
+| ComfyUI | Recommended | Recommended |
+| Internet after setup | Not required | Not required |
 
-Extract the ZIP archive.
+---
 
-Run:
+# 📦 Installation
 
-PromptPilot.exe
-Linux
+<details>
+<summary><b>🪟 Windows Installation</b></summary>
 
-Extract the ZIP archive.
+<br>
 
-Run:
+1. Download PromptPilot v2.0 for Windows.
 
-install_desktop_linux.sh
+2. Extract the ZIP archive.
 
-Launch PromptPilot from your desktop or applications menu.
+3. Run:
 
-Screenshots
+`PromptPilot.exe`
 
-(Keep your existing screenshots here.)
+4. PromptPilot will open and connect to your local Ollama installation.
 
-Roadmap
+</details>
 
-Future development includes:
+<details>
+<summary><b>🐧 Linux Installation</b></summary>
 
-AI Workflow Doctor
-GPU & VRAM Dashboard
-ComfyUI Status Monitor
-Plugin System
-Automatic Updates
-Custom Prompt Packs
-Advanced Prompt Analytics
-Feedback
+<br>
 
-Found a bug?
+1. Download PromptPilot v2.0 for Linux.
 
-Open a GitHub Issue.
+2. Extract the ZIP archive.
 
-Have a feature request?
+3. Run:
 
-Start a GitHub Discussion.
+`install_desktop_linux.sh`
 
-🌍 Want PromptPilot in your language? Open an Issue or Discussion and let us know which language you'd like to see next!
+4. Launch PromptPilot from your desktop or applications menu.
 
-Community feedback continues to shape the future of PromptPilot.
+</details>
 
-Special Thanks
+---
 
-A special thank you to Scouby Scouby for the invaluable testing, ideas, and suggestions that have helped improve PromptPilot for everyone. Community feedback like this continues to make the project stronger.
+# 🌎 Language Support
 
-License
+PromptPilot has previously been released in dedicated language editions including:
+
+🇺🇸 English
+
+🇫🇷 French v1.14.6
+
+Additional languages can be developed based on community demand.
+
+If you would like PromptPilot in another language, open an Issue or Discussion and let us know.
+
+---
+
+# 📸 Screenshots
+
+Add current PromptPilot screenshots here.
+
+---
+
+# 🗺️ Roadmap
+
+PromptPilot development is continuing.
+
+Planned and experimental features include:
+
+* Workflow Studio
+* Style Library
+* Expanded model family support
+* Improved ComfyUI workflow generation
+* GPU and VRAM Dashboard
+* ComfyUI Status Monitor
+* Plugin System
+* Automatic Updates
+* Custom Prompt Packs
+* Advanced Prompt Analytics
+
+---
+
+# 💬 Feedback & Community
+
+### 🐛 Found a bug?
+
+Open a GitHub Issue and describe what happened.
+
+### 💡 Have an idea?
+
+Start a GitHub Discussion or submit a feature request.
+
+### 🌎 Want another language?
+
+Tell us which language you would like PromptPilot to support.
+
+Community feedback continues to shape PromptPilot development.
+
+---
+
+# ⭐ Special Thanks
+
+A special thank you to **Scouby Scouby** for the testing, ideas, suggestions, and feedback that have helped improve PromptPilot.
+
+Thank you as well to everyone who has downloaded PromptPilot, tested releases, reported problems, shared the project, or starred the repository.
+
+---
+
+# 📜 License
 
 PromptPilot is proprietary software.
 
-Free for personal use.
+**Free for personal use.**
 
 Commercial redistribution, resale, modification for commercial distribution, or use of the PromptPilot name or branding without written permission is prohibited.
 
-See LICENSE.txt for complete licensing information.
+See `LICENSE.txt` for complete licensing information.
 
-Developed By
-Desert Rat Software
+---
 
-D. Spencer
+<div align="center">
+
+# ✈️ PromptPilot
+
+### Your idea. Your workflow. Your creation.
+
+**Developed by Desert Rat Software**
+
+**D. Spencer**
 
 Copyright © 2026
 
 All Rights Reserved.
 
-I also have one recommendation for the GitHub page itself: add a Downloads section near the top so visitors immediately see which edition they need.
-
-# 📥 Downloads
-
-🇺🇸 PromptPilot v1.14.5 – English Edition
-
-🇫🇷 PromptPilot v1.14.6 – French Edition
-
-🌍 More language editions will be added based on community requests.
+</div>
