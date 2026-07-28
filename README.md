@@ -1,17 +1,16 @@
-
 <img width="1280" height="640" alt="Futuristic AI software launch poster" src="https://github.com/user-attachments/assets/d0675cde-c3c2-415f-80fa-05602ad3288f" />
 <p></p>
 <p></p>
 
 <div align="center">
 
-# ✈️ PromptPilot v2.0
+# PromptPilot v3.0
 
 ### Professional Offline AI Prompt Workspace for ComfyUI
 
 **Build better AI image and video prompts while keeping everything on your own computer.**
 
-**Windows • Linux • Mac (Beta) • Server/Docker (Beta) • Ollama •  ComfyUI**
+**Windows • Linux • Mac Coming Soon • Server/Docker Coming Soon • Ollama • ComfyUI**
 
 ### Your idea. Your workflow. Your creation.
 
@@ -19,7 +18,7 @@
 
 ---
 
-## 🚀 About PromptPilot
+## About PromptPilot
 
 PromptPilot is a desktop application designed to help creators build high quality prompts for AI image and video generation.
 
@@ -27,45 +26,92 @@ Built with ComfyUI creators in mind, PromptPilot uses locally installed Ollama m
 
 Your ideas and prompts remain on your own computer.
 
-> 🔒 No cloud processing required  
-> 💳 No subscriptions  
-> 🔑 No API keys  
-> 📡 No telemetry  
-> 👁️ No tracking  
-> 🖥️ Local AI powered by Ollama
+> No cloud processing required
+> No subscriptions
+> No API keys
+> No telemetry
+> No tracking
+> Local AI powered by Ollama
 
 ---
 
-# 🆕 PromptPilot Version 2
+# PromptPilot Version 3
 
-Version 2 is a major update featuring expanded AI support, smarter prompt generation, improved Ollama management, Image Inspector, automatic LoRA trigger words, and a more polished workspace.
+PromptPilot 3 is a major evolution of the PromptPilot workspace.
 
-## 🧠 Model Aware Prompt Generation
+Version 3 expands PromptPilot beyond prompt generation with a redesigned workspace, improved AI Engine, Quick Edit, Workflow Studio, Style Library, expanded AI model support, improved image and video prompting, and additional tools designed specifically for ComfyUI creators.
+
+The goal remains the same:
+
+**Make powerful AI prompting easier without making the software complicated.**
+
+---
+
+## PromptPilot AI Engine
+
+PromptPilot's embedded AI Engine helps turn simple ideas into detailed prompts while showing you what is happening during generation.
+
+The AI Engine provides:
+
+* Live progress
+* Generation percentage
+* Current processing stage
+* Elapsed time
+* PromptPilot tips
+* Completion summary
+* Model aware prompt generation
+* Image and video prompt optimization
+
+Everything is integrated directly into Prompt Builder.
+
+---
+
+## Quick Edit
+
+PromptPilot 3 introduces **Quick Edit**.
+
+Quick Edit allows you to make targeted changes to an existing prompt without rebuilding the entire prompt.
+
+Want different lighting?
+
+Change the environment?
+
+Adjust the clothing?
+
+Change the camera?
+
+Add or remove something?
+
+Tell Quick Edit what you want changed and PromptPilot can modify that part while preserving the rest of your prompt.
+
+---
+
+## Model Aware Prompt Generation
 
 PromptPilot does more than expand a description.
 
 It understands which AI platform or model you are targeting and adjusts the prompt accordingly.
 
-This allows PromptPilot to write prompts specifically for image generators, video generators, ComfyUI models, and general AI systems.
+This allows PromptPilot to create prompts specifically for image generators, video generators, ComfyUI models, and general AI systems.
 
 ---
 
-## 🤖 Universal AI Registry
+## Universal AI Registry
 
 PromptPilot includes support for more than **100 AI platforms and model families**.
 
-| Image | Video | General AI |
-|:---|:---|:---|
-| FLUX | WAN 2.2 | ChatGPT |
-| Z Image | Seedance | Grok |
-| SDXL | Sora | Universal Mode |
-| PuLID | Veo | Custom AI Target |
-| Stable Diffusion | LTX | |
-| Qwen Image | FramePack | |
-| | Hunyuan Video | |
-| | CogVideoX | |
-| | Mochi | |
-| | AnimateDiff | |
+| Image            | Video         | General AI       |
+| :--------------- | :------------ | :--------------- |
+| FLUX             | WAN 2.2       | ChatGPT          |
+| Z Image          | Seedance      | Grok             |
+| SDXL             | Sora          | Universal Mode   |
+| PuLID            | Veo           | Custom AI Target |
+| Stable Diffusion | LTX           |                  |
+| Qwen Image       | FramePack     |                  |
+|                  | Hunyuan Video |                  |
+|                  | CogVideoX     |                  |
+|                  | Mochi         |                  |
+|                  | AnimateDiff   |                  |
 
 And many more.
 
@@ -73,9 +119,9 @@ You can select a supported AI or type the name of the system you want PromptPilo
 
 ---
 
-# ✨ Features
+# Features
 
-## 🎨 AI Prompt Builder
+## AI Prompt Builder
 
 Create detailed prompts using locally installed Ollama models.
 
@@ -86,8 +132,10 @@ Prompt Builder includes:
 * Prompt detail controls
 * Realism controls
 * Person improvement controls
+* Environment improvement controls
 * Camera controls
 * Custom text insertion
+* Positive prompts
 * Negative prompts
 * LoRA integration
 * Face reference options
@@ -95,27 +143,43 @@ Prompt Builder includes:
 * Prompt improvement
 * Multiple prompt comparisons
 * Prompt history
+* Quick Edit
 
 ---
 
-## 🧠 Embedded AI Engine
+## Style Library
 
-See what PromptPilot is doing while your prompt is being created.
+PromptPilot 3 introduces an expanded **Style Library** for quickly adding visual styles to your prompts.
 
-The AI Engine provides:
+Select a style and send it directly to Prompt Builder.
 
-* Live progress
-* Generation percentage
-* Current processing stage
-* Elapsed time
-* PromptPilot tips
-* Completion summary
-
-Everything is integrated directly into Prompt Builder.
+The Style Library is designed to make experimenting with different visual directions faster and easier without requiring you to manually write complex style descriptions.
 
 ---
 
-## 🖼️ Image Inspector
+## Workflow Studio
+
+PromptPilot 3 introduces **Workflow Studio**, bringing workflow planning directly into the PromptPilot workspace.
+
+Workflow Studio is designed to help users prepare and configure ComfyUI workflows while keeping the process easier to understand.
+
+Features include:
+
+* Build from a base workflow
+* Build from scratch
+* Model aware workflow options
+* Compatible option filtering
+* Image workflow support
+* Image to Video workflow support
+* Prompt to Video workflow support
+* Clear Workspace controls
+* Workflow configuration tools
+
+More advanced workflow experiments are being developed separately so they can be tested without disrupting the stable PromptPilot 3 release.
+
+---
+
+## Image Inspector
 
 Turn an existing image into a detailed AI prompt.
 
@@ -131,7 +195,7 @@ Use Image Inspector when you want PromptPilot to analyze how an existing image c
 
 ---
 
-## 🔥 LoRA Manager
+## LoRA Manager
 
 PromptPilot makes working with ComfyUI LoRAs easier.
 
@@ -147,7 +211,7 @@ Features include:
 
 ---
 
-## 👤 Identity Preservation
+## Identity Preservation
 
 PromptPilot includes controls for reference based workflows such as PuLID.
 
@@ -165,29 +229,31 @@ Available preservation options include:
 
 ---
 
-## 📥 Local Model Manager
+## Local Model Manager
 
 Manage Ollama without leaving PromptPilot.
 
-| Control | Supported |
-|:---|:---:|
-| Start Ollama | ✅ |
-| Stop Ollama | ✅ |
-| Restart Ollama | ✅ |
-| Refresh models | ✅ |
-| Install models | ✅ |
-| Live download progress | ✅ |
-| Download percentage | ✅ |
-| Installation status | ✅ |
-| Automatic model refresh | ✅ |
+| Control                 | Supported |
+| :---------------------- | :-------: |
+| Start Ollama            |    Yes    |
+| Stop Ollama             |    Yes    |
+| Restart Ollama          |    Yes    |
+| Refresh models          |    Yes    |
+| Install models          |    Yes    |
+| Live download progress  |    Yes    |
+| Download percentage     |    Yes    |
+| Installation status     |    Yes    |
+| Automatic model refresh |    Yes    |
 
 ---
 
-## 📁 ComfyUI Workspace
+## ComfyUI Workspace
 
 PromptPilot brings several ComfyUI related tools into one workspace.
 
 * Prompt Builder
+* Workflow Studio
+* Style Library
 * Project Manager
 * Workflow Manager
 * LoRA Manager
@@ -197,10 +263,11 @@ PromptPilot brings several ComfyUI related tools into one workspace.
 * Prompt Detail Controls
 * AI Target Selection
 * Model Selection
+* Quick Edit
 
 ---
 
-# 🔒 Privacy First
+# Privacy First
 
 ### Your prompts belong to you.
 
@@ -208,20 +275,20 @@ PromptPilot is designed around local AI.
 
 Your prompt generation can remain entirely on your own computer through Ollama.
 
-| | PromptPilot |
-|:---|:---|
-| Cloud processing required | ❌ |
-| Subscription required | ❌ |
-| API key required | ❌ |
-| Prompt collection | ❌ |
-| Telemetry | ❌ |
-| Tracking | ❌ |
-| Local Ollama support | ✅ |
-| Offline prompt generation | ✅ |
+|                           | PromptPilot |
+| :------------------------ | :---------- |
+| Cloud processing required | No          |
+| Subscription required     | No          |
+| API key required          | No          |
+| Prompt collection         | No          |
+| Telemetry                 | No          |
+| Tracking                  | No          |
+| Local Ollama support      | Yes         |
+| Offline prompt generation | Yes         |
 
 ---
 
-# 🤖 Ollama Models
+# Ollama Models
 
 PromptPilot works with a wide range of locally installed Ollama models.
 
@@ -239,43 +306,53 @@ Recommended options include:
 
 ---
 
-# 📥 Downloads
+# Downloads
 
-## 🪟 Windows
+## Windows
 
-**PromptPilot v2.0 for Windows**
+**PromptPilot v3.0 for Windows**
 
 Recommended for Windows 10 and newer.
 
-## 🐧 Linux
+## Linux
 
-**PromptPilot v2.0 for Linux**
+**PromptPilot v3.0 for Linux**
 
 Designed for modern Linux desktop systems.
 
-> Additional platform editions may be released in the future.
+## macOS
+
+**PromptPilot v3.0 for macOS is currently being tested.**
+
+The Mac edition will be released after testing is complete and the Version 3 features have been confirmed working properly.
+
+## Server and Docker
+
+**PromptPilot v3.0 Server and Docker editions are currently being tested.**
+
+These editions will be released after Version 3 testing is complete.
 
 ---
 
-# ⚙️ Requirements
+# Requirements
 
-| Requirement | Windows | Linux |
-|:---|:---:|:---:|
-| PromptPilot | ✅ | ✅ |
-| Ollama | ✅ | ✅ |
-| ComfyUI | Recommended | Recommended |
+| Requirement          |    Windows   |     Linux    |
+| :------------------- | :----------: | :----------: |
+| PromptPilot          |      Yes     |      Yes     |
+| Ollama               |      Yes     |      Yes     |
+| ComfyUI              |  Recommended |  Recommended |
 | Internet after setup | Not required | Not required |
 
 ---
 
-# 📦 Installation
+# Installation
 
 <details>
-<summary><b>🪟 Windows Installation</b></summary>
+<summary><b>Windows Installation</b></summary>
 
 <br>
 
-1. Download PromptPilot v2.0 for Windows.
+1. Download PromptPilot v3.0 for Windows.
 
 2. Extract the ZIP archive.
 
@@ -288,11 +365,11 @@ Designed for modern Linux desktop systems.
 </details>
 
 <details>
-<summary><b>🐧 Linux Installation</b></summary>
+<summary><b>Linux Installation</b></summary>
 
 <br>
 
-1. Download PromptPilot v2.0 for Linux.
+1. Download PromptPilot v3.0 for Linux.
 
 2. Extract the ZIP archive.
 
@@ -306,13 +383,13 @@ Designed for modern Linux desktop systems.
 
 ---
 
-# 🌎 Language Support
+# Language Support
 
 PromptPilot has previously been released in dedicated language editions including:
 
-🇺🇸 English
+English
 
-🇫🇷 French v1.14.6
+French v1.14.6
 
 Additional languages can be developed based on community demand.
 
@@ -320,19 +397,51 @@ If you would like PromptPilot in another language, open an Issue or Discussion a
 
 ---
 
-#
+# PromptPilot 3.5 Beta
+
+Development does not stop with PromptPilot 3.
+
+Experimental workflow features are being developed separately as **PromptPilot 3.5 Beta**.
+
+This experimental development line allows new workflow tools and advanced options to be built and tested without changing the stable PromptPilot 3 release.
+
+Experimental workflow options include:
+
+* FreeU
+* High Resolution Fix
+* Face Detailer
+* Hand Detailer
+* Tiled VAE
+* Tiled Upscale
+* Second Sampler Pass
+* Color Correction
+* Sharpen
+* Batch Images
+* Save Metadata
+* Custom node support
+
+Features from PromptPilot 3.5 Beta will only be considered for the main PromptPilot line after they have been tested and confirmed working.
+
 ---
 
-# 🗺️ Roadmap
+# Roadmap
 
 PromptPilot development is continuing.
 
-Planned and experimental features include:
+Future and experimental ideas include:
 
-* Workflow Studio
-* Style Library
+* Expanded Workflow Studio capabilities
+* Smarter ComfyUI workflow generation
+* Advanced video prompt building
+* Start Frame and End Frame video controls
+* Subject Action controls
+* Camera Movement controls
+* Environment Motion controls
+* Consistency controls
+* Workflow analysis
+* Workflow Doctor
+* Workflow performance checking
 * Expanded model family support
-* Improved ComfyUI workflow generation
 * GPU and VRAM Dashboard
 * ComfyUI Status Monitor
 * Plugin System
@@ -342,17 +451,17 @@ Planned and experimental features include:
 
 ---
 
-# 💬 Feedback & Community
+# Feedback & Community
 
-### 🐛 Found a bug?
+### Found a bug?
 
 Open a GitHub Issue and describe what happened.
 
-### 💡 Have an idea?
+### Have an idea?
 
 Start a GitHub Discussion or submit a feature request.
 
-### 🌎 Want another language?
+### Want another language?
 
 Tell us which language you would like PromptPilot to support.
 
@@ -360,7 +469,7 @@ Community feedback continues to shape PromptPilot development.
 
 ---
 
-# ⭐ Special Thanks
+# Special Thanks
 
 A special thank you to **Scouby Scouby** for the testing, ideas, suggestions, and feedback that have helped improve PromptPilot.
 
@@ -368,7 +477,7 @@ Thank you as well to everyone who has downloaded PromptPilot, tested releases, r
 
 ---
 
-# 📜 License
+# License
 
 PromptPilot is proprietary software.
 
@@ -382,7 +491,7 @@ See `LICENSE.txt` for complete licensing information.
 
 <div align="center">
 
-# ✈️ PromptPilot
+# PromptPilot
 
 ### Your idea. Your workflow. Your creation.
 
