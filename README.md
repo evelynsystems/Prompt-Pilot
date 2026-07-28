@@ -39,7 +39,7 @@ Your ideas and prompts remain on your own computer.
 
 PromptPilot 3 is a major evolution of the PromptPilot workspace.
 
-Version 3 expands PromptPilot beyond prompt generation with a redesigned workspace, improved AI Engine, Quick Edit, Workflow Studio, Style Library, expanded AI model support, improved image and video prompting, and additional tools designed specifically for ComfyUI creators.
+Version 3 expands PromptPilot beyond prompt generation with a redesigned workspace, improved AI Engine, Workflow Studio, Style Library, expanded AI model support, improved image and video prompting, and additional tools designed specifically for ComfyUI creators.
 
 The goal remains the same:
 
@@ -63,26 +63,6 @@ The AI Engine provides:
 * Image and video prompt optimization
 
 Everything is integrated directly into Prompt Builder.
-
----
-
-## Quick Edit
-
-PromptPilot 3 introduces **Quick Edit**.
-
-Quick Edit allows you to make targeted changes to an existing prompt without rebuilding the entire prompt.
-
-Want different lighting?
-
-Change the environment?
-
-Adjust the clothing?
-
-Change the camera?
-
-Add or remove something?
-
-Tell Quick Edit what you want changed and PromptPilot can modify that part while preserving the rest of your prompt.
 
 ---
 
@@ -143,7 +123,6 @@ Prompt Builder includes:
 * Prompt improvement
 * Multiple prompt comparisons
 * Prompt history
-* Quick Edit
 
 ---
 
@@ -263,7 +242,6 @@ PromptPilot brings several ComfyUI related tools into one workspace.
 * Prompt Detail Controls
 * AI Target Selection
 * Model Selection
-* Quick Edit
 
 ---
 
